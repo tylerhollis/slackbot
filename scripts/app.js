@@ -5,6 +5,9 @@ module.exports = function(robot) {
   return robot.hear(/Will you help me with my music career?/i, function(res) {
     return res.send("First you have to purify yourself in the waters of Lake Minnetonka.");
   });
+};
+
+module.exports = function(robot) {
   return robot.hear(/Who is (better|worse)\?* (.*) or (.*?)\??$/i, function(msg) {
     var botAnswers;
     botAnswers = msg.random([1, 2, 3, 4, 5]);
@@ -15,4 +18,3 @@ module.exports = function(robot) {
     }
   });
 };
-
