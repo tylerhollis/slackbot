@@ -3,4 +3,3 @@ module.exports = function(robot) {
     return res.send("First you have to purify yourself in the waters of Lake Minnetonka.");  
 	});
 };
-
