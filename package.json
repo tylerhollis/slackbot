@@ -1,9 +1,9 @@
 {
-  "name": "KevinTheRobot",
+  "name": "kevintherobot",
   "version": "0.0.0",
   "private": true,
-  "author": "Tyler Derryberry <tylerhollis@gmail.com>",
-  "description": "Not the first; not the last.",
+  "author": "Tyler",
+  "description": "The name of this bot is Kevin.",
   "dependencies": {
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
