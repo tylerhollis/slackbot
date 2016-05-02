@@ -7,7 +7,7 @@ module.exports = function(robot) {
   return robot.hear(/Hi Hubot! My name is (.*)/i, function(msg) {
   		var name;
   		name = msg.match[0];
-  		if (name == "Hubot") ){
+  		if (name == "Hubot") {
   			return msg.send("You're not Hubot--I'm Hubot!");    
   		} else {
 			return msg.reply("Nice to meet you, " + name + "!");
